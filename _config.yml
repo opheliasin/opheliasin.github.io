@@ -1,11 +1,13 @@
 title: Ophelia Sin # your name (or website title) here
 logo: "/images/headshot.jpg" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  I'm a 3rd year undergrad majoring in Communication and Geography at UCLA. My interests lies in harnessing the potential of GIS data to aid local communities, businesses, and governments with decision making and promoting sustainable urban development. I'm currently working as a remote sensing research assistant at the Project on Resources and Governance at UCLA. 
   <br><br>
-  Second description 
+  Previously I've been involved in research projects in both Los Angeles and Hong Kong. Scroll to check out projects I've be involved in!
   <br><br>
-  <a href="https://www.linkedin.com/in/opheliasin/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/opheliasin/">VLinkedIn </a> 
+  <a href="https://docs.google.com/document/d/12Z2I7ZEP4mRHPo52VlpQhzLEknJdsj-g7KTP-Xu8HMA/edit/"> Resume </a>
+
   
 theme: jekyll-theme-minimal
 google_analytics: G-573G3WM05T # your Google Analytics tracking ID here
