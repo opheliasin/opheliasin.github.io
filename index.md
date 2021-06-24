@@ -15,7 +15,7 @@
 
 ---
 [Maximizing Cellular Coverage In LA With Viewshed Analysis](http://example.com/)
-<img src="images/project-cover/raster-operations-cover.jpg?raw=true"/>
+<img src="images/project-cover/viewshed-cover.jpg?raw=true"/>
 
 ---
 [Selecting A Campsite Location In East San Diego Using Raster Operations](http://example.com/)
