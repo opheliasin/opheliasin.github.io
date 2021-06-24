@@ -6,11 +6,11 @@
 <img src="images/project-cover/hurricane-cover.png?raw=true"/>
 
 ---
-[Constructing A Funicular In Griffith Park, Los Angeles](/pdf/sample_presentation.pdf)
+[Constructing A Funicular In Griffith Park, Los Angeles](/project-pages/)
 <img src="images/project-cover/starbucks-cover.png?raw=true"/>
 
 ---
-[Hypothetical Starbucks Location Closure In Riverside](http://example.com/)
+[Hypothetical Starbucks Location Closure In Riverside](/project-pages/starbucks-project)
 <img src="images/project-cover/starbucks-cover.png?raw=true"/>
 
 ---
