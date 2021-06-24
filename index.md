@@ -1,32 +1,35 @@
-## Portfolio
+## Projects
 
 ---
 
-### Category Name 1 
+[Hurricane Path Visualization In Continental U.S.](/sample_page)
+<img src="images/project-cover/hurricane-cover.jpg?raw=true"/>
 
-[Project 1 Title](/sample_page)
+---
+[Constructing A Funicular In Griffith Park, Los Angeles](/pdf/sample_presentation.pdf)
+<img src="images/project-cover/starbucks-cover.png?raw=true"/>
+
+---
+[Hypothetical Starbucks Location Closure In Riverside](http://example.com/)
+<img src="images/project-cover/starbucks-cover.png?raw=true"/>
+
+---
+[Maximizing Cellular Coverage In LA With Viewshed Analysis](http://example.com/)
+<img src="images/project-cover/raster-operations-cover.jpg?raw=true"/>
+
+---
+[Selecting A Campsite Location In East San Diego Using Raster Operations](http://example.com/)
+<img src="images/project-cover/raster-operations-cover.jpg?raw=true"/>
+
+---
+[Spatial Dynamics Of The 2012 And 2016 U.S. Presidential Elections](http://example.com/)
+<img src="images/project-cover/spatial-dynamics-cover.jpg?raw=true"/>
+
+---
+[An Investigation In Transportation, Pollution, And Income In LA](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
 
 
 
