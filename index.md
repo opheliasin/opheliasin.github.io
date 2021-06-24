@@ -7,7 +7,7 @@
 
 ---
 [Constructing A Funicular In Griffith Park, Los Angeles](/project-pages/)
-<img src="images/project-cover/least-cost-path-cover.png?raw=true"/>
+<img src="images/project-cover/least-cost-path-cover.jpg?raw=true"/>
 
 ---
 [Hypothetical Starbucks Location Closure In Riverside](/project-pages/starbucks-project)
