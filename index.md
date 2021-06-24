@@ -27,7 +27,7 @@
 
 ---
 [An Investigation In Transportation, Pollution, And Income In LA](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/project-cover/los-angeles-cover.jpg?raw=true"/>
 
 ---
 
