@@ -3,7 +3,7 @@
 ---
 
 [Hurricane Path Visualization In Continental U.S.](/sample_page)
-<img src="images/project-cover/hurricane-cover.jpg?raw=true"/>
+<img src="images/project-cover/hurricane-cover.png?raw=true"/>
 
 ---
 [Constructing A Funicular In Griffith Park, Los Angeles](/pdf/sample_presentation.pdf)
