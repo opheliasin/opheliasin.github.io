@@ -1,5 +1,5 @@
 
-** Goal **
+**Goal**
 The goal of this project was to determine a hypothetical store closure in Riverside, California based on its service area, population within the serving area, and its demographics.
 
 ### Methodology
