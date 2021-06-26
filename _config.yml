@@ -1,6 +1,7 @@
 title: Ophelia Sin # your name (or website title) here
 logo: "/images/headshot.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+description: # your text below (remove <br> elements if you don't need line breaks)
+  <br>
   I'm a 3rd year undergrad majoring in Communication and Geography at UCLA. My interests lies in harnessing the potential of GIS data to aid local communities, businesses, and governments with decision making and promoting sustainable urban development.
   <br><br>
   I'm currently working as a remote sensing research assistant at the Project on Resources and Governance at UCLA.  Previously I've been involved in research projects in Los Angeles and Hong Kong. 
