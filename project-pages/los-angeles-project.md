@@ -1,24 +1,43 @@
-# Spatial Dynamics Of The 2012 And 2016 U.S. Presidential Elections
-**Goal:** The goal of this project was to learn more about the spatial dimension of voting behavior and election outcomes in the U.S. Spatial clusters are identified and assessed. 
+# An Investigation In Transportation, Pollution, And Income In LA
 
-## Methodology
-GeoDa was used to generate spatial weights matrices and calculate global and local Moran’s I values. The spatial weight in this analysis used queen contiguity of order 1. In order to explore the spatial dynamics of the elections, directional local spatial autocorrelation analysis was performed. 
+**Geographic scope of project**
+The focus of this project will be the city of Los Angeles in California. This project excludes unincorporated areas or the Greater Los Angeles areas. A total of 1151 census tracts are included. 
 
-ArcMap were used to visualize output from GeoDa’s local spatial autocorrelation tool. 
+**Topics of interest: LA’s Green New Deal**
+The City of Los Angeles aims to reach ambitious urban sustainability goals. By 2035, the City of Los Angeles envisions 50% of its residents to rely on walking, biking, or taking public transit. 
 
-## Maps
+**Purpose**
+Using certain parameters, we shall attempt to understand the disparity of transit options, physical health, and the degree of traffic burden and pollution among LA residents living in different census tracts.
 
-![Local Spatial Autocorrelation Map](/images/project-pages/spatial-dyanmics/LISA-1/jpg)
+**Data sources** 
+* LA City Geohub (Bike lanes, City of LA boundary )UCLA Geoportal (US major roads) 
+* CalEnviroScreen 3.0 (Pollution burden)
+* Los Angeles Metro Bikeshare (Bikeshare station locations)
+* Los Angeles Metro (Rail lines and Rail stations)
+* US Census Bureau
+  * American Community 5-year survey (Median Income per household, Mean time to travel to work)
+  * US Tiger/Lines (Census tracts)
+  * Poverty Threshold 2018
 
-![Change in Vote Share Map](/images/project-pages/spatial-dyanmics/Change-in-vote-share.jpg)
+<iframe width="100%" height="800px" src="https://www.arcgis.com/apps/MapJournal/index.html?appid=99b6f3d97b21430a889023a71889ccad" frameborder="0" scrolling="no"></iframe>
 
 
-## Discussion
-### Overview of the spatial distribution of voting behavior
-Voting behavior tends to be clustered, evenly dispersed, or randomly distributed. Calculation of Global Moran’s I values of the percentage change between the 2 elections for both Democrats (0.646) and Republicans (0.637) show that there is positive spatial correlation.
+## Methodology 
+* 9 maps were created in total for analysis and displayed in ArcGIS Online. However, before uploading zipped shapefiles to ArcGIS Online, multiple steps were taken to create and organize the data that was required in ArcMap. 
+* Most of the data were large datasets, ranging from state to county level. It was necessary to use a City of Los Angeles shapefile downloaded from the City Geohub to geoprocess the larger datasets using clip or intersect. New shapefiles were then created. 
+* A join was done between the census tract shapefiles from the US Census Bureau and selected variables from ACS 5-year estimates data profiles DP03 (Economic characteristics). Before conducting the table join, null values and ‘-‘ values are replaced by 0. 
+* Dissolved buffer zones were created for both metro (railroad) stations and metro bikeshare stations. The metro (railroad) station buffer had a radius of ½ miles and the metro bikeshare stations had a radius of 1,000 feet. The radiuses were decided according to data published by the National Association of City Transportation Officials. In order to reduce the repetition of creating buffers for metro (railroad) stations, stations from different metro lines were merged into one file before conducting a buffer operation. 
+* A selection by attribute operation was done to select census tracts that had a median income below the poverty threshold of 2018 ($25,701) in reference to data provided by the US Census Bureau. A new shapefile was created. 
+* Intersect operations were used to evaluate the relationships between various datasets. The operation was done between (1) bikeshare stations and low-income census tracks, (2) railroad stations and low-income census tracts; (3) bikeshare station buffers and all census tracts, and (4) railroad station buffers and census tracts. Using the selected data, I was able to calculate the average mean time to travel among tracts within the buffer zones. 
+* I also calculated the total length of bikelanes in the CIty of LA using the geometry tool. The outcome was then compared to the total distance of streets in LA. 
+* An extra step was taken when categorizing census tracts that were narrowed down. In order to preserve consistency of the categorization between the original data and the subsets, categories for the subsets were adjusted manually.
 
-## A strategic discussion of the spatial dimensions of the aforementioned local spatial autocorrelation analysis:
-In the LISA maps in 2012 and 2016, clusters can be identified in the Pacific coast (California and Washington), the midwest (Texas, Oklahoma, Kansas, and Nebraska) and the northeast (Maine, Massachusetts, New Hampshire, Vermont). Clusters have shifted between the years. In 2012, there was a High-High cluster in Utah. It disappeared in 2016 and the HighHigh cluster shifted up north to Montana and Wyoming. Low-Low clusters have also changed. In 2016, Low-Low clusters in the rust belt have decreased in size, whereas those in the Pacific Coastline have increased in size. The change in vote share map also reflects the clusters shown in the 2016 map. The rust belt region shows a significant increase in Republican vote share, whereas California shows a significant decrease in Republican vote share. The median income of states with High-High cluster varies. In the upper Midwest, the states have low median income and in the rust belt, most states have medium median income. The presence of these clusters mean that Tobler’s first law of Geography is existent – especially near things are more related to one another. Therefore, in order to gain an edge on the next election, the candidate must secure its current strongholds and campaign in those nearby areas to maximize the applicability of Tobler’s first law.
+## Conclusion
+* Less than 10% of streets are paved with bikelanes. 
+* Bikeshare stations are not exclusive to middle/high-income neighborhoods.
+* A neighborhood’s accessibility to public transit does not lead to a rise in the predominant socio-economic class of its residents.
+* On average, living next to a bikeshare station or a railroad station will not reduce your commuting time.
 
-In this scatterplot, we see that values are concentrated in the upper right scatterplot, which indicates an increase in the percentage change for republican vote share in the variable itself and its neighboring values. This shows that there was a huge change in voter behavior across most of the country. Points on the upper end of the High-High box represents counties in the upper Midwest, the rust belt, and deindustrialized areas. In order to maintain dominance in areas with a Republican stronghold, the party has to win in the next election, the Republican Party has to increase support in counties that are currently located near the origin point to win electoral votes in swing states.   
-![Scatterplot](/images/project-pages/spatial-dyanmics/scatterplot.jpg)
+## Sources
+https://plan.lamayor.org/targets/targets_plan.html  
+https://nacto.org/wp-content/uploads/2015/09/NACTO_Walkable-Station-Spacing-Is-Key-For-Bike-Share_Sc.pdf
