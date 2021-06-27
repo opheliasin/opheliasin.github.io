@@ -19,7 +19,15 @@ Using certain parameters, we shall attempt to understand the disparity of transi
   * US Tiger/Lines (Census tracts)
   * Poverty Threshold 2018
 
-<iframe width="100%" height="800px" src="https://www.arcgis.com/apps/MapJournal/index.html?appid=99b6f3d97b21430a889023a71889ccad" frameborder="0" scrolling="no"></iframe>
+## Web Maps 
+
+[Metro (railway) network in the City of Los Angeles](https://www.arcgis.com/apps/MapJournal/index.html?appid=99b6f3d97b21430a889023a71889ccad)
+
+[City of LA: Pollution Burden vs Median Household Income](https://arcg.is/15uquW)
+
+[Mean Time to Travel and Public Transit Accessiblity](https://www.arcgis.com/apps/MapSeries/index.html?appid=e576a890a98b46d0a6e9ad81b3e863e1)
+
+[Bikeshare stations, bikeways and Los Angeles](https://www.arcgis.com/apps/MapSeries/index.html?appid=b400a16ac0e442b49d629c1e8b598b52)
 
 
 ## Methodology 
