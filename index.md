@@ -18,7 +18,7 @@
 <img src="images/project-cover/viewshed-cover.png?raw=true"/>
 
 ---
-[Selecting A Campsite Location In East San Diego Using Raster Operations](/project-pages/starbucks-project)
+[Selecting A Campsite Location In East San Diego Using Raster Operations](/project-pages/raster-operations-project)
 <img src="images/project-cover/raster-operations-cover.jpg?raw=true"/>
 
 ---
