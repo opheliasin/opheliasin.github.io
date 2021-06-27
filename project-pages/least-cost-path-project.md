@@ -17,3 +17,8 @@ Finally, a 3D visualization is produced using qgis2threejs. This visualization i
 The areas covered in blue and purple each represent the area that is computed using viewshed analysis from the station near hollywood sign and the station near the merry-go-round respectively. 
 
 [3D Visualization](/project-pages/least-cost-path-3D-visualization/index.html)
+
+## Results
+The Least Cost Path traverses areas with higher elevation while avoiding crossing too many roads and buildings. 
+
+Travelers are able to view different parts of the LA area at the two stations with little overlap. 
