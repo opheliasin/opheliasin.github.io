@@ -15,6 +15,7 @@ Viewshed analysis was conducted using ArcMap 10.7 using T-mobile cell tower loca
 [Estimated T-Mobile cellular coverage in LA County if the maximum range of all existing cellular towers is increased by 5 km](/images/project-pages/viewshed/viewshed-map-4.jpg)
 
 ## Discussion
+
 Scenario	| Coverage of total land area in LA County (in percentage)
 ------------ | ------------- 
 Current State |	41.08
