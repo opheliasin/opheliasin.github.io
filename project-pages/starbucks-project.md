@@ -9,13 +9,15 @@ OpenStreetMap data of the specified area (Left: -117.53, Right: -117.28, Top: 34
 
 ## Maps
 [OD Matrix Map](/images/project-pages/starbucks/od-matrix.jpg)
+
 [Total Service Area Map](/images/project-pages/starbucks/total-coverage.jpg)
+
 [Coverage Area of Example Store](/images/project-pages/starbucks/example-store.jpg)
 
 ## Discussion
 ### Population and demographic characteristics
 Store | Population | Median Household Income in the Past 12 Months | Median Age | Does service area overlap with other service areas? 
------------- | -------------
+------------ | ------------- | ------------- | ------------- | -------------
 5685 | 28768 | 61408 | 34.593333 | Yes
 6616 | 27796 | 58182 |	33.464706 | Yes
 11463 | 29577 | 104672 | 39.372727 | Yes
