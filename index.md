@@ -26,7 +26,7 @@
 <img src="images/project-cover/spatial-dynamics-cover.jpg?raw=true"/>
 
 ---
-[An Investigation In Transportation, Pollution, And Income In LA](/project-pages/los-angeles-project.html)
+[An Investigation In Transportation, Pollution, And Income In LA](/project-pages/los-angeles-project)
 <img src="images/project-cover/los-angeles-cover.jpg?raw=true"/>
 
 ---
