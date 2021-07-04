@@ -28,10 +28,3 @@
 ---
 [An Investigation In Transportation, Pollution, And Income In LA](/projects/los-angeles-project)
 <img src="images/project-cover/los-angeles-cover.jpg?raw=true"/>
-
----
-
-
-
----
-<!-- Remove above link if you don't want to attibute -->
