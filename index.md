@@ -1,5 +1,10 @@
 ## Projects
 
+[Shopify Summer 2022 Data Science Intern Challenge](https://github.com/opheliasin/shopify-summer2022-ds-challenge)
+
+---
+[GEOG 181C Spring 2021 Final Project](https://github.com/opheliasin/geog181cproject)
+
 ---
 
 [Hurricane Path Visualization In Continental U.S.](/projects/hurricane-project)
