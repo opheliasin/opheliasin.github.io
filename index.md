@@ -1,5 +1,8 @@
 ## Projects
 
+[Remote Sensing: A brief analysis of vegetation and deforestation of Central Rondônia in Brazil between 2013 and 2019](https://docs.google.com/document/d/1JL19b8woCu2ywL6XmYvMbbs6ESDcUYtM/edit?usp=sharing&ouid=103712966335601656155&rtpof=true&sd=true)
+
+---
 [Shopify Summer 2022 Data Science Intern Challenge](https://github.com/opheliasin/shopify-summer2022-ds-challenge)
 
 ---
