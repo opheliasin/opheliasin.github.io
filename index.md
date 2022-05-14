@@ -1,5 +1,9 @@
 ## Projects
 
+
+[Electric Vehicle and Infrastructure Expansion in California](https://github.com/opheliasin/urbnpl229-project)
+
+---
 [Remote Sensing: A brief analysis of vegetation and deforestation of Central Rondônia in Brazil between 2013 and 2019](https://docs.google.com/document/d/1JL19b8woCu2ywL6XmYvMbbs6ESDcUYtM/edit?usp=sharing&ouid=103712966335601656155&rtpof=true&sd=true)
 
 ---
